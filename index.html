@@ -7,29 +7,33 @@ Final Project for CSCI 115 -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Echo 7 - Homepage</title>
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/index.css">
 
     <style>
-
     </style>
+
+<link rel="stylesheet" href="javascript/main.js">
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 
 </head>
 <body>
 
-    <nav class="navbar">
-        <img id="navimg" src="/img/Echo 7 Logo and Text Horizontal 2 White.png" alt="Echo 7 Logo">
-        <ul>
-            <li><a href="index.html" class="menu_link">Home</a></li>
-            <li><a href="about.html" class="menu_link">About</a></li>
-            <li><a href="projects.html" class="menu_link">Projects</a></li>
-            <li><a href="blog.html" class="menu_link">Blog</a></li>
-            <li><a href="studio.html" class="menu_link">Studio</a></li>
-            <li><a href="contact.html" class="menu_link">Contact</a></li>
-        </ul>
-    </nav>
+    <div id="nav-placeholder">
+
+    </div>
+    
+    <script type="text/javascript">
+    
+        $(function navbar(){
+        $("#nav-placeholder").load("/nav.html");
+        });
+    
+    </script>
 
 <div class="block">
 
@@ -38,11 +42,11 @@ Final Project for CSCI 115 -->
             <lh>Recent Posts</lh>
             <br>
             <br>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
+            <li>This Feature is Coming Soon!</li>
+            <li>This Feature is Coming Soon!</li>
+            <li>This Feature is Coming Soon!</li>
+            <li>This Feature is Coming Soon!</li>
+            <li>This Feature is Coming Soon!</li>
         </ul>
     </div>
 
@@ -76,29 +80,17 @@ Final Project for CSCI 115 -->
 <br>
 
 
-    <nav class="footer">
+<div id="footer-placeholder">
 
-        <!-- <div id="byline">
-            <p>Website By Austin Shouli / Echo 7 Studios</p>
-        </div>  -->
-        
-        <div id="footer_left">
-             <ul>
-                <li>left</li>
-                <li>left</li>
-                <li>left</li>
-            </ul>
-        </div>
+</div>
 
-        <div id="footer_right"> 
-            <ul>
-                <li>right</li>
-                <li>right</li>
-                <li>right</li>
-            </ul>
-        </div>
+<script type="text/javascript">
 
-    </nav>
+    $(function navbar(){
+    $("#footer-placeholder").load("/footer.html");
+    });
+
+</script>
 
     
     

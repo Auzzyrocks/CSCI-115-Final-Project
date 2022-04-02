@@ -15,6 +15,7 @@ Final Project for CSCI 115 */
     padding: 10px;
     border-radius: 10px;
     background-color: white;    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -23,6 +24,7 @@ Final Project for CSCI 115 */
     display: flex;
     align-items: center;
     padding-right: 3px;
+    margin-left: 15px;
     float: right;
     align-items: right;
 
@@ -33,4 +35,36 @@ Final Project for CSCI 115 */
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
+
+#submit_button {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+
+    margin-top: 20px;
+    padding: 10px;
+
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    border-radius: 10px;
+
+}
+
+#display_form {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    min-width: 300px;
+    min-height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    
 }

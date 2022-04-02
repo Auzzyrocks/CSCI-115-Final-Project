@@ -1,0 +1,71 @@
+/* Austin Shouli 659 053 854
+Final Project for CSCI 115 */
+
+
+
+#price_table {
+
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+
+    background-color: white;
+    
+    Border: 3px solid black;
+    border-collapse: collapse;
+
+}
+
+caption {
+
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+th {
+
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+tr, th, td {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    Border: 2px solid black;
+    padding: 5px;
+
+
+}
+
+.price_block {
+
+    padding: 30px;
+}
+
+.contact_button {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    border-radius: 10px;
+}
+
+a {
+
+    color: aliceblue;
+}
+
+a:hover{
+
+    color: cadetblue;
+
+}
