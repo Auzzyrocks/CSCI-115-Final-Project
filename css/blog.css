@@ -24,6 +24,13 @@ Final Project for CSCI 115 */
 
 }
 
+/* .blog_post {
+
+   float: center;
+   border: 2px solid black;
+   max-width: 50%;
+} */
+
 #blog_block{
 
    float: right;
