@@ -2,14 +2,15 @@
 Final Project for CSCI 115 */
 
 body{
+
     background-image: url(/img/Echo\ 7\ Logo\ Logo\ Only\ Transparent\ half_size\ 2.png);
+
     width: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     margin: 0px;
-    
-    }
+}
 
 h2 {
     
@@ -27,7 +28,6 @@ h2 {
     display: flex;  
     float: center;
   
-
     margin-left: 250px;
 
     max-width: 70%;
@@ -35,33 +35,24 @@ h2 {
     width: auto;
   
     word-wrap: break-word;
-
-    
-
 }
 
 .picture {
 
- 
     display: flex;
     justify-content: center;
     align-self: center;
     margin: 30px;   
-   
 }
 
 .image_left{
 
-    
     margin-left: 20px;
-    
-
 }
 
 .image_right{
 
     margin: 20px;
- 
 }
 
 .image_center{
@@ -185,33 +176,33 @@ h2 {
 }
 
 
-.footer li{
-    list-style: none;
+.footer li {
 
+    list-style: none;
 }
 
 #footer_left{
+
     display: block;
     order: 1;
     align-self: center;
     justify-self: center;
     float: left;
     padding: 30px, 5px;
-    
-
 }
 
 #footer_right{
+
     display: block;
     order: 2;
     align-self: center;
     justify-self: center;
     float: right;
     padding: 30px, 5px;
-
 }
 
 #byline{
+
     font-size: small;
     position: absolute;
     bottom: 1px;
@@ -225,14 +216,13 @@ h2 {
 
     /* padding-right: 10px;
     padding-bottom: 10px; */
-
 }
 
 
 p {
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 7px;
-
 }
 
 a {
@@ -246,7 +236,7 @@ a {
  
  }
 
- lh {
+ /* lh {
 
     color: cadetblue;
- }
+ } */
