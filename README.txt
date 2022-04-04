@@ -20,4 +20,4 @@ Features:
 
     - Navbar and Footer scale to page width
 
-    -
+    - Blog Sidebar scrolls with page, for easy navigation
