@@ -2,7 +2,7 @@
 Final Project for CSCI 115 */
 
 
-#projects_img {
+.projects_img {
     
    order: 1;
    float: left;
@@ -31,6 +31,16 @@ Final Project for CSCI 115 */
    margin-bottom: 50px;
    top: 5px;
    width: 50%;
-   max-width: 50%;
-  
+   max-width: 50%; 
+}
+
+.blog_main_img {
+
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+
+   float: center;
+   margin-left: 200px;
 }

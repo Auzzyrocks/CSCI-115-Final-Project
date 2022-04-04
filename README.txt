@@ -1,6 +1,8 @@
 Austin Shouli 659 053 854
 CSCI 115 Final Project
 
+github pages : https://auzzyrocks.github.io/CSCI-115-Final-Project/index.html
+
 README
 
 Known Issues: 
