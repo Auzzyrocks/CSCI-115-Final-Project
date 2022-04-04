@@ -18,7 +18,6 @@ Final Project for CSCI 115 */
 #Desk {
 
    display: block;
-   float: top;
    top: 10px;
    clear: both;
 
@@ -47,7 +46,5 @@ Final Project for CSCI 115 */
    margin-left: auto;
    margin-right: auto;
    width: 80%;
-
-   float: center;
    margin-left: 200px;
 }
