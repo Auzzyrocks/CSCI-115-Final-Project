@@ -7,6 +7,8 @@ Known Issues:
 
     -jQuery function to load navbar/footer/sidebar to various pages does not workout outsie of github pages or live server (does not work when .html files are opened directly from computer file browser)
 
+    -Footer sometimes leaves bottom of index.html. does not happen on other pages
+
 
 Features: 
 
