@@ -15,3 +15,10 @@ Final Project for CSCI 115 */
 
 }
 
+.index_block {
+
+   float: right;
+   clear: both;
+   margin-bottom: 50px;
+   top: 5px;
+}

@@ -2,7 +2,7 @@
 Final Project for CSCI 115 */
 
 body{
-    background-image: url(/img/Echo\ 7\ Logo\ Logo\ Only\ Transparent\ half_size.png);
+    background-image: url(/img/Echo\ 7\ Logo\ Logo\ Only\ Transparent\ half_size\ 2.png);
     width: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,25 +12,39 @@ body{
     }
 
 h2 {
-
+    
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.clear{
+
+    clear: both;
+}
+
 .block {
 
-    display: flex;
+    display: flex;  
+    float: center;
+  
+
+    margin-left: 250px;
+
+    max-width: 70%;
     flex-direction: row;
-    width: 100%;
+    width: auto;
   
     word-wrap: break-word;
+
+    
 
 }
 
 .picture {
 
-   
+ 
     display: flex;
+    justify-content: center;
     align-self: center;
     margin: 30px;   
    
@@ -123,17 +137,18 @@ h2 {
 
 .sidebar{
 
+    display: block;
+    float: left;
     width:200px;
     min-width: 150px;
     height:500px;
     margin:18px;
-    float: left;
     font-size:12px;
     color:white;
     background-color: #1b1b1b;
     border-radius: 30px;
     opacity: 85%;
-    position: sticky; 
+    position: fixed; 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
@@ -154,8 +169,11 @@ h2 {
 
 .footer{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+
+    margin-top: 40px;
+    /* align-items: center; */
     background-color: steelblue;
     position: relative;
     float: bottom;
@@ -173,6 +191,10 @@ h2 {
 }
 
 #footer_left{
+    display: block;
+    order: 1;
+    align-self: center;
+    justify-self: center;
     float: left;
     padding: 30px, 5px;
     
@@ -180,22 +202,51 @@ h2 {
 }
 
 #footer_right{
+    display: block;
+    order: 2;
+    align-self: center;
+    justify-self: center;
     float: right;
     padding: 30px, 5px;
 
 }
 
 #byline{
-    position: static;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    font-size: small;
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+
+    /* align-self: baseline;
+    justify-self: baseline;
+
+    padding-bottom: 0px;
+    margin-bottom: 0%; */
+
+    /* padding-right: 10px;
+    padding-bottom: 10px; */
 
 }
-
 
 
 p {
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-padding: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 7px;
 
 }
+
+a {
+
+    color: cadetblue;
+ }
+ 
+ a:hover{
+ 
+    color: crimson;
+ 
+ }
+
+ lh {
+
+    color: cadetblue;
+ }

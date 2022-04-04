@@ -14,3 +14,22 @@ Final Project for CSCI 115 */
 
 }
 
+#Desk {
+
+   display: block;
+   float: top;
+   top: 10px;
+   clear: both;
+
+}
+
+#blog_block{
+
+   float: right;
+   clear: both;
+   margin-bottom: 50px;
+   top: 5px;
+   width: 50%;
+   max-width: 50%;
+  
+}
