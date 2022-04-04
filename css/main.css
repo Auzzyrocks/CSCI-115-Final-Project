@@ -111,6 +111,8 @@ h2 {
 
 #navimg{
     float: left;
+    margin-top: 7px;
+    margin-bottom: auto;
     width: 200px;
     margin-left: 5%;   
 }
@@ -189,7 +191,6 @@ h2 {
     align-self: center;
     justify-self: center;
     float: left;
-    padding: 30px;
 }
 
 #footer_right{
@@ -199,7 +200,6 @@ h2 {
     align-self: center;
     justify-self: center;
     float: right;
-    padding: 30px;
 }
 
 #byline{
